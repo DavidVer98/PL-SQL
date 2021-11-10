@@ -1,2 +1,2 @@
 # PL-SQL
-Scritps basicos sobre el lenguajes PL/SQL
+Scripts basicos sobre el lenguajes PL/SQL
