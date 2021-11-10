@@ -1,0 +1,18 @@
+loop
+while loop
+for contador in valor1...valor2 loop
+
+set SERVEROUT on
+DECLARE
+   valor number := 10;
+   n2 integer := 5;
+BEGIN
+    loop
+        --dbms_output.put_line(valor);
+        valor := valor + 10;
+        if valor > 50 then
+            exit;
+        end if;
+    end loop;
+    dbms_output.put_line(valor);
+END;

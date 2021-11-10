@@ -1,0 +1,35 @@
+DECLARE
+   lv_edad NUMBER(3);
+BEGIN
+   lv_edad:= 100; --asignamos el valor 100 a la variable lv_edad
+   DBMS_OUTPUT.PUT_LINE(lv_edad);
+END;
+
+DECLARE
+--seccion declarativa
+BEGIN
+--seccion ejecutable
+
+EXCEPTION
+--seccion donde se puede manejar las excepciones 
+
+END;
+--final del programa
+---------------------------------------------------------------------
+set SERVEROUT on
+DECLARE
+   lv_edad NUMBER(3);
+   fecha_actual date := (sysdate);
+   fecha date := TO_DATE('2021/07/09', 'yyyy/mm/dd');
+   v_var_date VARCHAR2(30);
+   n1 integer := 10;
+   n2 integer := 5;
+BEGIN
+   lv_edad := 100; --asignamos el valor 100 a la variable lv_edad
+   v_var_date:=TO_CHAR(sysdate, 'yyyy/mm/dd'); 
+    if n1 > n2 then
+        DBMS_OUTPUT.PUT_LINE(n1 ||' es mayo que ' || n2  );
+    else
+         DBMS_OUTPUT.PUT_LINE(n1 ||' es menor que ' || n2  );
+  end if;
+END;
