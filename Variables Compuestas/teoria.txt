@@ -1,0 +1,3 @@
+Variables compuestas.
+Nos permiten almacenar distintos valores de registros con distintos
+titpos de datos con una misma variable

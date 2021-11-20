@@ -1,0 +1,23 @@
+************************
+Un curosor es un puntero, que se utiliza para manejar sentencias 
+select y esta formado por un conjunto de registros.
+Los cursores son segmentos de memoria utilizados para realizar
+operaciones con los registros que se devuelven tras ejecutar una sentencia
+de tipo select
+
+/-------------------------------------/
+*CUSORES IMPLICITOS
+Se utiliza cunado una sentencia select devuelve un solo registro
+
+*CUSORES EXPLICITOS
+Se utiliza cunado una sentencia select devuelve mas de un  registro y tambien se puede 
+utilizar en consultas donde se devuelve 1 solo registro
+
+/-------------------------------------/
+Atributos (CURSORES)
+
+- %ISOPEN : Devuelve "true" si el cursor está abierto
+- %FOUND : Devuelve "true" si el registro fue satisfactoriamente procesado
+- %NOTFOUND : Devuelve "true" si el registro no pudo ser procesado. Normalmente esto 
+  ocurre cuando ya se han procesado todos los registros devueltos por el cursor
+- %ROWCOUNT : Devuelve el número de registros que han sido procesados hasta ese momento

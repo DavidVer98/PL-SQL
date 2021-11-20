@@ -1,0 +1,19 @@
+Los paquetes de psql son un grupo logico de la base datos, tales como
+-Registro de datos PLQSL
+-Variables
+-Estructuras de datos
+-Excepciones
+-Subprogramas
+-Procedimientos
+-Funciones
+Todos estos objetos se relacionan entre si, encapsulados y convertidos
+en una unidad dentro de la base de datos.
+
+COMPOSICION DE UN PAQUETE
+
+*   Packet Specification [Public]   - Variables
+                            - Procedure A declaration;
+
+*   Packet Body (No obligatoria) [Private]  - Variable
+                                            - Procedure B definition...
+                                            -BEGIN ... END;

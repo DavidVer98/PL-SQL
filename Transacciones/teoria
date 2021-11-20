@@ -1,0 +1,5 @@
+Una transaccion psql es una unidad atomica de trabajo que puede constar
+de una o mas sentencias sql relacionadas entre si, se dice atomica porque las
+modificaciones de la base de datos provocadas por las sentencias sql de transacciones
+se pueden confirmarse colectivamente, es decir pueden hacerce permantentes en la base de datos
+o deshacerse en la base de datos 
